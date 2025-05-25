@@ -21,15 +21,6 @@
 - **Progress and Limitations**:
   - If the player runs out of stamina, they cannot work.
   - To restore stamina, the player needs to sleep.
-
----
-
-## Technologies
-
-- Java 17+
-- Swing (for ClickerWork)
-- Console-based interface (text-based)
-
 ---
 
 ### Project Structure
