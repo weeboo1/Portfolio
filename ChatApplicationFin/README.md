@@ -43,7 +43,7 @@ In console mode: type `exit` and press Enter
 
 ---
 
-## 📌 Notes
+## Notes
 
 - All communication is done via TCP sockets
 - Messages are broadcasted to all connected clients
