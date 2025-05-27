@@ -5,16 +5,15 @@ SkillTrack is a lightweight web application that allows users to track and manag
 
 Features
 - User registration and login
-- Darklight theme toggle (saved in localStorage)
 - Add and view personal skills
-- Add steps to each skill and mark them as doneundone
+- Add steps to each skill and mark them as done/undone
 - Progress bar chart (via Chart.js) showing completion percentage per skill
-- Simple and clean UI with lightdark mode
+- Simple and clean UI with dark/light mode (Dark/light theme toggle)
 
 Technologies Used
 - PHP (Backend)
 - MySQL (Database)
-- HTMLCSS (Frontend)
+- HTML/CSS (Frontend)
 - Chart.js (Data visualization)
 - JavaScript (Theme toggle)
 
@@ -25,14 +24,10 @@ Folder Structure
 - `db.php` – PDO connection setup
 - `style.css` – Theme styling
 - `theme-toggle.js` – Theme toggle script
-- `schema.sql` – SQL script to initialize the database structure
 
 How to Run
 1. Create a local MySQL database named `skilltrack`
 2. Import `schema.sql` into the database
 3. Edit `db.php` with your database credentials
-4. Run using a PHP local server (e.g. XAMPP, MAMP, built-in PHP server)
-5. Access via browser at `httplocalhostindex.php`
-
-Author
-[Your Name]
+4. Run using a PHP local server
+5. Access via browser
