@@ -3,7 +3,7 @@
 # Description:
 A lightweight console application written in C++ that helps you keep track of your passwords in one place. Instead of relying on your browser — which isn't always the most secure option — you can store credentials locally in an encrypted file.
 
-#Core Features:
+# Core Features:
 - Master password authentication
 - Add new entries (website, username, password)
 - View all saved entries (decrypted for display)
@@ -19,7 +19,7 @@ Passwords are encrypted using a basic XOR cipher with a repeated key based on yo
 - Compilation: g++ (MSYS2 environment)
 - Platform: Console
 
-#File Structure:
+# File Structure:
 - `main.cpp`: Handles the user interface and main logic loop
 - `PasswordManager.h/.cpp`: Core functionality: encryption, file I/O, and data handling
 - `vault.dat`: Stores encrypted password entries 
