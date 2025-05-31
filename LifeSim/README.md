@@ -1,6 +1,6 @@
 # Life Simulation Game (Java, Console + Swing)
 
-**Life Simulation Game** is a text-based simulation game written in Java, where player can work, earn money, buy items in a store, and manage stamina. The game features two works (mini-games): one is a logic-based (solving equations), and the other is an arcade-style (clicker with balls).
+Life Simulation Game is a text-based simulation game written in Java, where player can work, earn money, buy items in a store, and manage stamina. The game features two works (mini-games): one is a logic-based (solving equations), and the other is an arcade-style (clicker with balls).
 
 ---
 
@@ -20,7 +20,7 @@
   - Working costs stamina, so you’ll need to manage your energy.
   - You can sleep to restore stamina when it runs out.
 
-### Project Structure
+# Project Structure
 
 - `Player.java` – handles player data: money, stamina, and related methods like working and sleeping.
 - `Item.java` – defines items, their categories, and properties.
