@@ -1,56 +1,46 @@
 
 # Java Chat Application
 
-A simple local client-server chat application written in Java using sockets and Swing. Supports multiple clients, graphical UI for both server and client, and real-time messaging.
+This is a simple local chat application built in Java. It uses sockets for network communication and Swing for the graphical interface. The app allows multiple clients to connect to a server and chat with each other in real time.
 
+# Features
+
+- Supports multiple clients at once using threads
+- Graphical interface for both server and client
+- Messages are broadcast to all connected clients
+- Clients can join, leave, and reconnect to the chat
+- Each client has a username that's shown with their messages
+- Server has a log window and a button to stop the server
+  
 ---
+  # How to Run
 
-## Features
+# 1. Start the Server
 
-- Multi-client support using threads
-- Graphical client with message input and display
-- Graphical server with live log and stop control
-- Broadcast messages to all clients
-- Clients can disconnect and reconnect
-- User names are assigned and shown in messages
+- **GUI version**: Run `ServerWindow.java`  
+- **Console version**: Run `ChatServer.java`
 
----
-
-### 1. Run the Server
-
-- Option A: Launch `ServerWindow.java` for GUI version
-- Option B: Run `ChatServer.java` for console version
-
-### 2. Run Clients
+# 2. Run Clients
 
 Each client can be started by running `ClientWindow.java`. You will be asked to enter your name before joining the chat.
+You can open several clients at once to simulate multiple users.
 
-You can run multiple instances to simulate multiple users.
+# Reconnect Feature
 
----
+If a client is disconnected (manually or because the server shuts down), the *Reconnect* button allows them to reconnect without retyping their name.
 
-## Reconnect Feature
+## Stopping the Server
 
-If a client is disconnected (manually or due to server shutdown), the "Reconnect" button allows them to reconnect without retyping their name.
-
----
-
-## To Stop the Server
-
-In GUI mode: click **Stop Server**
-
-In console mode: type `exit` and press Enter
+- In GUI: Just press the **Stop Server** button  
+- In console: Type `exit` and press Enter
 
 ---
 
-## Notes
+# Notes
 
-- All communication is done via TCP sockets
+- Communication is done over TCP sockets
 - Messages are broadcasted to all connected clients
-- Handles basic disconnection gracefully
+- Handles client disconnects without crashing
 - For simplicity, no encryption or authentication is implemented
 
----
-
-
-Created by Halahan Kiril. For educational and portfolio purposes.
+by Halahan Kiril.
