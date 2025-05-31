@@ -2,8 +2,6 @@
 
 Life Simulation Game is a text-based simulation game written in Java, where player can work, earn money, buy items in a store, and manage stamina. The game features two works (mini-games): one is a logic-based (solving equations), and the other is an arcade-style (clicker with balls).
 
----
-
 # Features
 
 - **Jobs**:
