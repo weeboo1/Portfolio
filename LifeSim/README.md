@@ -1,35 +1,32 @@
 # Life Simulation Game (Java, Console + Swing)
 
-**Life Simulation Game** is a text-based simulation game written in Java, where the player controls a character, works, earns money, manages stamina, and can shop in a store. The game features two mini-games: one is a logic-based (solving equations), and the other is an arcade-style (clicker with balls).
+**Life Simulation Game** is a text-based simulation game written in Java, where player can work, earn money, buy items in a store, and manage stamina. The game features two works (mini-games): one is a logic-based (solving equations), and the other is an arcade-style (clicker with balls).
 
 ---
 
-## Features
+# Features
 
 - **Jobs**:
-  - **Math Work** — solve simple math equations by entering answers via the console.
-  - **Clicker Work** — a speed mini-game using Swing: click on green circles and avoid red ones!
+  - Math Work – a console mini-game where you solve simple math equations.
+  - Clicker Work – a Swing-based mini-game where you click on green circles to earn money while avoiding red ones.
 
 - **Shop**:
-  - You can buy tech, food, and drinks (though the hunger functionality hasn't been added yet).
-  - You can buy different levels of beds to increase maximum stamina.
-
+  - You can buy electronics, food, and drinks (though the hunger functionality hasn't been added yet).
+  - Beds increase your maximum stamina, which helps you work longer.
+  - Hunger mechanics are planned but not yet implemented.
+  
 - **Player**:
   - The player has money and stamina.
-  - Work requires a certain amount of stamina.
-
-- **Progress and Limitations**:
-  - If the player runs out of stamina, they cannot work.
-  - To restore stamina, the player needs to sleep.
----
+  - Working costs stamina, so you’ll need to manage your energy.
+  - You can sleep to restore stamina when it runs out.
 
 ### Project Structure
 
-- **Player.java** — the player class. Stores money, stamina, and contains methods for earning money, spending, and restoring energy.
-- **Item.java** — the item class. Stores item categories, getters, and setters.
-- **Shop.java** — shop implementation. Allows the player to buy items and restore stamina.
-- **ClickerWork.java** — a mini-game with a graphical interface using Swing: click on green circles, avoid red ones, and earn money.
-- **MathWork.java** — a text-based mini-game: solve random equations and earn money.
-- **Main.java** — the main class with the game menu and logic for launching various functions.
+- `Player.java` – handles player data: money, stamina, and related methods like working and sleeping.
+- `Item.java` – defines items, their categories, and properties.
+- `Shop.java` – allows the player to buy items and handles stamina-related effects.
+- `ClickerWork.java` – the graphical clicker game where timing and reaction matter.
+- `MathWork.java` – the console-based math game for earning money by solving equations.
+- `Main.java` – contains the game menu and ties everything together.
 
----
+by Halahan Kiril
