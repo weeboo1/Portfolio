@@ -1,0 +1,33 @@
+*.class
+
+# Maven target directory
+/target/
+
+*.log
+
+# Environment config
+application.yml
+application.properties
+
+# NetBeans project settings
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+
+# VS Code settings
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore test reports
+/test-output/
+
