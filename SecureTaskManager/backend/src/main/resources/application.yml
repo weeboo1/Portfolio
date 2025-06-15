@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/securetaskdb
+    url: jdbc:postgresql://localhost:5432/your_db_name #change
     username: postgres
-    password: your_postgres_password
+    password: your_postgres_password  #change
   jpa:
     hibernate:
       ddl-auto: update
