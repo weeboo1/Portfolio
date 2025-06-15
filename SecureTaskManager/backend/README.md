@@ -10,7 +10,7 @@ SecureTaskManager is a backend REST API built with Spring Boot for secure task m
 
 - User registration and login with encrypted passwords
 - JWT access and refresh tokens
-- Role-based access control
+- Role-based access control (only one role implemented yet)
 - Task management (create, read, update, delete)
 - Brute-force login protection
 - Audit logging of key user actions
@@ -37,42 +37,13 @@ SecureTaskManager is a backend REST API built with Spring Boot for secure task m
 
 ## How to Run
 
-1. Clone the repository and navigate to the backend folder:
-git clone <repo_url>
-cd SecureTaskManager/backend
-
-css
-Копировать
-Редактировать
-
+1. Clone the repository and navigate to the backend folder.
 2. Configure your PostgreSQL database and update `src/main/resources/application.yml` with your connection details.
-
-3. Build the project using Maven:
-mvn clean package
-
-markdown
-Копировать
-Редактировать
-
+3. Build the project using Maven: mvn clean package
 4. Run the application:
-mvn spring-boot:run
-
-nginx
-Копировать
-Редактировать
-or
-java -jar target/SecureTaskManager-1.0-SNAPSHOT.jar
-
-markdown
-Копировать
-Редактировать
-
 5. Open Swagger UI at:
 http://localhost:8080/swagger-ui.html
-
-yaml
-Копировать
-Редактировать
 to explore and test the API.
 
 ---
+By Halahan Kiril
