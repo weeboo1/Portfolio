@@ -12,7 +12,7 @@ A lightweight console application written in C++ that helps you keep track of yo
 - Generate strong random passwords on the fly
 
 # Encryption:
-Passwords are encrypted using a basic XOR cipher with a repeated key based on your master password. The same method is used for both encryption and decryption.
+Passwords are encrypted using a basic cipher with a repeated key based on your master password. The same method is used for both encryption and decryption.
 
 # Technologies:
 - Language: C++
@@ -25,3 +25,4 @@ Passwords are encrypted using a basic XOR cipher with a repeated key based on yo
 - `vault.dat`: Stores encrypted password entries 
 
 By Kiril Halahan
+
